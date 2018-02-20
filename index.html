@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Trivia Game</title>
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1>Web Developer Trivia</h1> 
+        <p>This is a web development trivia game</p>
+        <button type="button" class="btn btn-primary" id="game">Start Game</button>
+      </div>
+
+      <br><br>
+
+<div class="hiddenContent">
+
+    <h3 class="text-center">You have 100 seconds... good luck</h3>
+    <h2 class="timer text-center">100</h2>
+
+      <div class="card">    
+            <div class="card-body">
+              <h5 class="card-title q1"></h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item q1a1"></li>
+              <li class="list-group-item q1a2"></li>
+              <li class="list-group-item q1a3"></li>
+            </ul>
+            <div class="card-body">
+            </div>
+      </div>
+
+      <div class="card">    
+            <div class="card-body">
+              <h5 class="card-title q2"></h5>
+            </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item q2a1"></li>
+                  <li class="list-group-item q2a2"></li>
+                  <li class="list-group-item q2a3"></li>
+                </ul>
+                <div class="card-body">
+                </div>
+      </div>
+
+
+      <div class="card">    
+            <div class="card-body">
+              <h5 class="card-title q3"></h5>
+            </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item q3a1"></li>
+                  <li class="list-group-item q3a2"></li>
+                  <li class="list-group-item q3a3"></li>
+                </ul>
+                <div class="card-body">
+                </div>
+      </div>
+
+
+      <div class="card">    
+            <div class="card-body">
+              <h5 class="card-title q4"></h5>
+            </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item q4a1"></li>
+                  <li class="list-group-item q4a2"></li>
+                  <li class="list-group-item q4a3"></li>
+                </ul>
+                <div class="card-body">
+                </div>
+      </div>
+
+      
+      <div class="card">    
+            <div class="card-body">
+              <h5 class="card-title q5"></h5>
+            </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item q5a1"></li>
+                  <li class="list-group-item q5a2"></li>
+                  <li class="list-group-item q5a3"></li>
+                </ul>
+                <div class="card-body">
+                </div>
+      </div>
+
+      
+      <div class="card">    
+            <div class="card-body">
+              <h5 class="card-title q6"></h5>
+            </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item q6a1"></li>
+                  <li class="list-group-item q6a2"></li>
+                  <li class="list-group-item q6a3"></li>
+                </ul>
+                <div class="card-body">
+                </div>
+      </div>
+
+      
+      <div class="card">    
+            <div class="card-body">
+              <h5 class="card-title q7"></h5>
+            </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item q7a1"></li>
+                  <li class="list-group-item q7a2"></li>
+                  <li class="list-group-item q7a3"></li>
+                </ul>
+                <div class="card-body">
+                </div>
+      </div>
+
+      
+      <div class="card">    
+            <div class="card-body">
+              <h5 class="card-title q8"></h5>
+            </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item q8a1"></li>
+                  <li class="list-group-item q8a2"></li>
+                  <li class="list-group-item q8a3"></li>
+                </ul>
+                <div class="card-body">
+                </div>
+      </div>
+
+      
+      <div class="card">    
+            <div class="card-body">
+              <h5 class="card-title q9"></h5>
+            </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item q9a1"></li>
+                  <li class="list-group-item q9a2"></li>
+                  <li class="list-group-item q9a3"></li>
+                </ul>
+                <div class="card-body">
+                </div>
+      </div>
+
+      
+      <div class="card">    
+            <div class="card-body">
+              <h5 class="card-title q10"></h5>
+            </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item q10a1"></li>
+                  <li class="list-group-item q10a2"></li>
+                  <li class="list-group-item q10a3"></li>
+                </ul>
+                <div class="card-body">
+                </div>
+      </div>
+
+
+</div>
+
+
+      
+
+
+  
+
+    
+    
+    <!-- jquery -->
+    <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+    </script>
+
+    <!-- app.js -->
+    <script src="./assets/javascript/app.js"></script>
+</body>
+</html>
