@@ -61,8 +61,8 @@ $(document).ready(function(){
             $('.timer .countdown').fadeOut('slow');
             clearInterval(timer);
           }
-          if (sec === 0){
-            alert("youre out of time") 
+          if (sec <= 0){
+            $(".timer").html("you ran outta time dawg") 
           }  
         }, 1000);
         var num = Math.floor(Math.random * 10)
@@ -94,7 +94,7 @@ $(document).ready(function(){
         // question 5
         $(".q5").append(questions[4])
         $(".q5a1").append(answers[0])
-        $(".q5a2").append(answers[2])
+        $(".q5a2").append(answers[4])
         $(".q5a3").append(answers[1])
 
         // question 6
@@ -133,11 +133,7 @@ $(document).ready(function(){
 
                 
     })
-    $(function() {
-        $('form').submit(function() {
-          console.log(value);
-        });
-      });
+    
 
 
 
